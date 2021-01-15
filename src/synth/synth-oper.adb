@@ -2034,7 +2034,6 @@ package body Synth.Oper is
                return Create_Value_Net (N, Res_Typ);
             end;
 
-        
          when Iir_Predefined_Ieee_Std_Logic_Misc_And_Reduce_Slv
            | Iir_Predefined_Ieee_Std_Logic_Misc_And_Reduce_Suv =>
             declare
